@@ -1,0 +1,22 @@
+{
+    "KPlugin": {
+        "Name": "Keeb's KWin Script",
+        "Description": "Various window movements for my workflow",
+        "Icon": "preferences-system-windows",
+        "Authors": [
+            {
+                "Name": "Keeb",
+                "Email": "keeb@keeb.dev"
+            }
+        ],
+        "Id": "center-window-1920x1080",
+        "Version": "1.0",
+        "License": "Apache 2",
+        "Website": "https://github.com/keeb/kwin-settings"
+    },
+    "X-Plasma-API": "javascript",
+    "X-Plasma-MainScript": "code/main.js",
+    "X-Plasma-RootObject": "code/main.js",
+    "KPackageStructure": "KWin/Script"
+}
+
